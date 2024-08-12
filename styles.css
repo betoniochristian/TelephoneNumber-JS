@@ -1,0 +1,96 @@
+:root{
+    --background-color: #55423d;
+    --text-color: #fffffe;
+    --background-color1: #140d0b;
+  }
+  *,
+  ::before,
+  ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  body{
+    height: 100vh;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #info-top{
+    margin-top: 50px; 
+  }
+  #info-top > h1{
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+    color: var(--text-color);
+  }
+  #phone-background{
+    margin-top: 20px;
+    height: 500px;
+    width: 300px; 
+    border-radius: 20px;
+    background-color: var(--background-color1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #phone-camera{
+    background-color: var(--text-color);
+    height: 15px;
+    width: 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+  #phone-content{
+    background-color: var(--text-color);
+    height: 400px;
+    width: 250px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #phone-footer{
+    margin-top: 10px;
+  }
+  #check-btn{
+    width: 80px;
+    height: 30px;
+    margin-right: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #check-btn:hover{
+    background-color: #ffc0ad;
+    color: #271c19; 
+  }
+  #clear-btn:hover{
+    background-color: #ffc0ad;
+    color: #271c19;
+  }
+  #clear-btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #phoneLabel{
+    margin-top: 20px;
+    font-family: 'verdana', sans-serif;
+    font-size: 17px; 
+  }
+  #user-input{
+    margin-top: 10px;
+    height: 40px;
+    width: 225px; 
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'verdana', sans-serif;
+    font-size: 17px; 
+  }
+  #results-div{
+    margin-top: 15px;
+    height: 285px;
+  }
+  
